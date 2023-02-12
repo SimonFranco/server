@@ -42,6 +42,7 @@ app.post("/auth/register", upload.single("picture"), register);
 
 // routes
 app.use("/auth", authRoutes);
+app/use()
 
 
 // mongoose setup
